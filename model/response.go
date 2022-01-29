@@ -6,13 +6,13 @@ type RestResponse struct {
 	Data    interface{} `json:"data"`
 }
 
-type StatusResponse struct {
+type StatusCodeResponse struct {
 	Code     int
 	Response RestResponse
 }
 
-func GetStatusResponse(code int, value RestResponse) *StatusResponse {
-	return &StatusResponse{
+func GetStatusCodeResponse(code int, value RestResponse) *StatusCodeResponse {
+	return &StatusCodeResponse{
 		Code:     code,
 		Response: value,
 	}
