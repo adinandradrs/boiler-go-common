@@ -1,3 +1,3 @@
-module github.com/adinandradrs/codefun-go-common
+module github.com/adinandradrs/boiler-go-common
 
 go 1.17
